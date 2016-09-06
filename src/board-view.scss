@@ -1,0 +1,56 @@
+.panel{
+
+  margin: .5em;
+
+  .panel-heading{
+    background:#F5F1E1;
+    padding: .2em;
+
+    .panel-title{
+
+      .content-left{
+        font-family: KaushanScript-Regular;
+        font-size: 3em;
+        color:#D09752;
+        display: inline-block;
+
+      }
+      .content-right{
+          text-align: right;
+          display: inline-block;
+          padding-left:2.5em;
+          font-size: 1em;
+          font-style: italic;
+      }
+    }
+  }
+
+  .panel-body{
+    background: #44727F;
+    height: 100%;
+
+    a{
+      color:#F5F1E1;
+    }
+  }
+}
+
+// icons
+
+/*Old Man icon by Icons8 */
+.icons8-Old-Man { /* Customizes Old Man icon */
+  fill:#44727F;
+  width: 48px;
+  height: 48px;
+}
+
+.icon { /* Customizes all icons at once */
+  display: inline-block;
+}
+
+//fonts
+
+@font-face {
+  font-family: KaushanScript-Regular;
+  src: url('assets/fonts/KaushanScript-Regular.otf');
+}
