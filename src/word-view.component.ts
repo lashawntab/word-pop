@@ -1,5 +1,5 @@
 import {Component, Output, EventEmitter} from '@angular/core';
-import {TimeProgressView} from './time-progress-view';
+import {TimeProgressView} from './time-progress-view.component';
 import {WordService} from './word-service';
 
 @Component({
@@ -15,9 +15,7 @@ import {WordService} from './word-service';
             </div>
           </div>
         </div>
-      </div>
-  `,
-  directives: [TimeProgressView]
+      </div>`
 })
 export class WordView
 {

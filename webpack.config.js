@@ -4,7 +4,7 @@ var CopyWebPackPlugin = require('copy-webpack-plugin');
 module.exports = {
     entry: "./src/main.ts",
     output: {
-        path: path.join(__dirname, 'build'),
+        path: path.join(__dirname, 'dist'),
         filename: "app_bundle.js"
     },
     resolve: {
@@ -22,13 +22,13 @@ module.exports = {
     },
     devServer: {
         outputPath: path.join(__dirname, 'build'),
-        contentBase: './build'
+        contentBase: './dist'
     },
     plugins:[
         new CopyWebPackPlugin([
           {from: "assets",  to: "assets"},
           {from: "src/index.html",  to: "index.html"},
-          {from: "doc/help.md",  to: "help.md"}
+          {from: "README.md",  to: "help.md"}
         ])
     ]
 };

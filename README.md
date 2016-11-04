@@ -1,48 +1,29 @@
-# This is your [AngularAttack](https://www.angularattack.com) 2016 Repo
+# Welcome to Word Pop!
 
-This repo is the start of your AngularAttack 2016 entry. It contains the simple [Angular2 starter](https://angular.io/docs/ts/latest/quickstart.html) files.
+## How to play
+Click on the letters that belong to the word, avoid those that don't. That's it!
+Do it fast enough before the time runs out!  
 
-**DO NOT MAKE ANY CODE CHECKINS TO THIS REPOSITORY BEFORE THE COMPETITION OFFICIALLY BEGINS.**
+## Score (At the top)
+- +5 points:  For a valid letter, Pop's face is shown.
+- -10 points:  For an invalid letter, nothing changes, but your points.
+- +20 points:  Found ALL letters, before time ran out.
+- -1 try: Time ran out before finding all letters.
 
-**DOING SO COULD DISQUALIFY YOU.**
+In all of these cases, the board will reset and show a new word.
 
+## How To Win  :)
+It's the game that keeps on giving.
 
-However, before the competition starts, there are some things we encourage you to do to get prepared for the competition.
+## How to Lose, Game Over  :(
+You were given 3 tries, but you used them all.  
+With more time could  improve with ways to earn new tries.
 
+Good luck.  Thank you for playing!
 
-### Step 1) Get Your Local Environment setup
+KNOWN ISSUES:
 
-Clone this repo locally, and make sure all your team members have access to it.
+If the words are not changing, it is due to Mixed Content Mode. In Chrome, enable the unsafe script loading :( 
+If this were a real production quality site, a proper license would be retrieved for a word generator that supports https.
 
-* Install the latest [Node / NPM](https://nodejs.org).
-
-* `git clone git@github.com:rumblex/angularattack2016-leebee.git`
-
-* `cd angularattack2016-leebee`
-
-* `npm install`
-
-* `npm start` will start the server locally to test that everything is running correctly
-
-
-### Step 2) Deploy Your App
-
-While you can't make any checkins before the comp, what you **can** do right now is deploy this sample app to [Surge](https://surge.sh) (our competition hosting provider).
-
-* `npm install -g surge`
-
-* `surge .`
-
-Note: please do not remove the `CNAME` file, as that tells it where to deploy to.
-
-If you receive an error message `"You do not have permission to publish to leebee.2016.angularattack.io"`, it might mean another team member has already deployed your project to Surge. Ask them to run the next step to give you access.
-
-### Step 3) Add Your Team Members to Surge
-
-* `surge . --add lashawntab@yahoo.com`
-
-
-### Step 4) Wait til competition starts
-
-It begins at exactly [May 14 at 00:00 UTC](https://www.wolframalpha.com/input/?i=May+14,+2016+0:00+UTC). Once the competition starts,   you can write over this project.
-
+Currently, using http://randomword.setgetgo.com/

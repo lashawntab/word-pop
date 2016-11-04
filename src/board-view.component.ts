@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
-import {WordView} from './word-view';
-import {MatrixView} from './matrix-view';
+import {WordView} from './word-view.component';
+import {MatrixView} from './matrix-view.component';
 import {WordService} from './word-service';
 import {TimerService} from './timer-service';
 import {UserStatsService} from './user-stats-service';
@@ -37,7 +37,6 @@ import {UserStatsService} from './user-stats-service';
       </div>
     </div>
   `,
-  directives: [WordView, MatrixView],
   providers: [WordService, TimerService, UserStatsService]
 })
 export class BoardView{

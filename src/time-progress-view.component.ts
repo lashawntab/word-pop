@@ -12,8 +12,7 @@ import {TimerService} from './timer-service';
         <div class='progress-right'[ngStyle]="{'width': width +'%'}">
         </div>
       </div>
-  `,
-  directives:[NgStyle]
+  `
 })
 export class TimeProgressView
 {

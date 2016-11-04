@@ -1,6 +1,6 @@
 import {Component, Input} from '@angular/core';
 import {NgFor} from '@angular/common';
-import {CharacterView} from './character-view';
+import {CharacterView} from './character-view.component';
 import {WordService} from './word-service';
 import {UserStatsService} from './user-stats-service';
 
@@ -15,8 +15,7 @@ import {UserStatsService} from './user-stats-service';
         </div>
       </div>
     </div>
-  `,
-  directives: [CharacterView]
+  `
 })
 export class MatrixView
 {

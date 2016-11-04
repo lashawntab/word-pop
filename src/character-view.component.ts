@@ -11,8 +11,7 @@ import {UserStatsService} from './user-stats-service';
          (click)="!validClick && onClick($event)">
       {{value}}
     </div>
-  `,
-  directives: [NgClass]
+  `
 })
 export class CharacterView
 {
