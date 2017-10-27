@@ -26,4 +26,4 @@ KNOWN ISSUES:
 If the words are not changing, it is due to Mixed Content Mode. In Chrome, enable the unsafe script loading :( 
 If this were a real production quality site, a proper license would be retrieved for a word generator that supports https.
 
-Currently, using http://randomword.setgetgo.com/
+Currently, using http://setgetgo.com/randomword/
