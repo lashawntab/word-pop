@@ -21,9 +21,22 @@ With more time could  improve with ways to earn new tries.
 
 Good luck.  Thank you for playing!
 
+FUTURE SCOPE:
+
+Provide more feedback to player
+Configurable complexity levels through word size (currently 5 letter limit)
+Enable ways to earn more "tries"
+Enable advancement levels and incentives
+Automatically start new word when player has found all letters
+Extend to use special characters and numbers.
+Use a picture instead of a word.
+Hide the word after some time and go by memory.
+
 KNOWN ISSUES:
 
 If the words are not changing, it is due to Mixed Content Mode. In Chrome, enable the unsafe script loading :( 
 If this were a real production quality site, a proper license would be retrieved for a word generator that supports https.
 
 Currently, using http://setgetgo.com/randomword/
+
+Angular Attack 2016 Entry:  http://2016.angularattack.com/entries/1604-leebee
