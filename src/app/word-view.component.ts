@@ -4,7 +4,7 @@ import {WordService} from './word-service';
 
 @Component({
   selector: 'word',
-  styles:[require('./word-view.scss')],
+  styleUrls: ['./word-view.scss'],
   template: `
       <div class="panel panel-default">
         <div class="panel-body">

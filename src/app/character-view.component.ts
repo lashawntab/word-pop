@@ -4,7 +4,7 @@ import {UserStatsService} from './user-stats-service';
 
 @Component({
   selector: 'character',
-  styles:[require('./character-view.scss')],
+  styleUrls: ['./character-view.scss'],
   template: `
     <div class="character"
          [ngClass]="{'clicked': validClick, 'unclicked': !validClick}"

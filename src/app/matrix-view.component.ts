@@ -6,7 +6,7 @@ import {UserStatsService} from './user-stats-service';
 
 @Component({
   selector: 'matrix',
-  styles:[require('./matrix-view.scss')],
+  styleUrls: ['./matrix-view.scss'],
   template: `
     <div class="container">
       <div class="row" *ngFor="let row of characters">

@@ -4,7 +4,7 @@ import {TimerService} from './timer-service';
 
 @Component({
   selector: 'time-progress',
-  styles:[require('./time-progress-view.scss')],
+  styleUrls: ['./time-progress-view.scss'],
   template: `
       <div class="content">
         <div class='progress-left' [ngStyle]="{'width': width +'%'}">

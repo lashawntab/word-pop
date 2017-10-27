@@ -1,4 +1,6 @@
 import {EventEmitter, Injectable} from '@angular/core';
+import 'rxjs/add/operator/map'
+
 import {Http} from '@angular/http';
 import {Observable} from 'rxjs/Observable';
 import {TimerService} from './timer-service';
@@ -28,7 +30,7 @@ export class WordService
 
     getNewWordAsync(http:  Http)
     {
-      return http.get('http://randomword.setgetgo.com/get.php?len=' + this.length)
+      return http.get('http://setgetgo.com/randomword/get.php?len=' + this.length)
                  .map(res => res.text())
                  .subscribe((data) =>
                    {

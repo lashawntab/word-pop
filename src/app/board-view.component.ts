@@ -7,7 +7,7 @@ import {UserStatsService} from './user-stats-service';
 
 @Component({
   selector: 'board',
-  styles: [require('./board-view.scss')],
+  styleUrls: ['./board-view.scss'],
   template:`
     <div class="panel panel-default">
       <div class="panel-heading">
